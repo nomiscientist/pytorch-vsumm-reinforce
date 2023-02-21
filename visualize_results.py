@@ -33,6 +33,6 @@ for key in keys:
     fig.savefig(osp.join(osp.dirname(args.path), 'score_' + key + '.png'), bbox_inches='tight')
     plt.close()
 
-    print "Done video {}. # frames {}.".format(key, len(machine_summary))
+    print ("Done video {}. # frames {}.".format(key, len(machine_summary)))
 
 h5_res.close()
